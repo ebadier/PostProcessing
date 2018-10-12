@@ -297,7 +297,7 @@ namespace UnityEngine.Rendering.PostProcessing
 #if !UNITY_SWITCH
             if (m_Camera.stereoEnabled)
             {
-                m_Camera.ResetStereoProjectionMatrices();
+                //m_Camera.ResetStereoProjectionMatrices();
                 Shader.SetGlobalFloat(ShaderIDs.RenderViewportScaleFactor, XRSettings.renderViewportScale);
             }
             else
